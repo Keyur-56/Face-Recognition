@@ -184,6 +184,6 @@ print(accuracy*100)
 with open("classes.json", "w") as f:
     json.dump(people, f)
 
-model.save("simpsons_model.keras")
+model.save("MODEL.keras")
 
-print(os.path.exists("simpsons_model.keras"))
+print(os.path.exists("MODEL.keras"))
