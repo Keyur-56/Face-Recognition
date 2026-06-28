@@ -14,8 +14,8 @@ people = []
 with open("classes.json", "r") as f:
     people = json.load(f)
 
-MODEL_PATH = "simpsons_model.keras"
-IMAGE_PATH = r"simpsons_dataset\milhouse_van_houten\pic_0014.jpg"
+MODEL_PATH = "MODEL.keras"
+IMAGE_PATH = r"TEST.jpg"
 
 # LOAD MODEL
 print("Loading Model...")
